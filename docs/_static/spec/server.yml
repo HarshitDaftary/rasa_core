@@ -338,7 +338,7 @@ paths:
         When added to Core, it will provide you an endpoint at
         `/webhooks/rest/webhook` that returns the same output as
         this endpoint. The only difference is, that you need to
-        send the message as `{"message": "<your text to parse>"}`.
+        send the message as `{\"message\": \"<your text to parse>\"}`.
 
         Notify the dialogue engine that the user posted a new message,
         and get a list of response messages the bot should send back.
